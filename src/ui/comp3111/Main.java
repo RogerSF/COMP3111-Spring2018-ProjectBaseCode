@@ -35,6 +35,7 @@ public class Main extends Application {
 	private DataTable sampleDataTable = null;
 
 	// Attributes: Scene and Stage
+	// final is like constant in C++
 	private static final int SCENE_NUM = 2;
 	private static final int SCENE_MAIN_SCREEN = 0;
 	private static final int SCENE_LINE_CHART = 1;
@@ -51,6 +52,8 @@ public class Main extends Application {
 	private Label lbSampleDataTable, lbMainScreenTitle;
 
 	// Screen 2: paneSampleLineChartScreen
+	
+	
 	private LineChart<Number, Number> lineChart = null;
 	private NumberAxis xAxis = null;
 	private NumberAxis yAxis = null;
@@ -181,7 +184,6 @@ public class Main extends Application {
 		xAxis = new NumberAxis();
 		yAxis = new NumberAxis();
 		lineChart = new LineChart<Number, Number>(xAxis, yAxis);
-
 		btLineChartBackMain = new Button("Back");
 
 		xAxis.setLabel("undefined");

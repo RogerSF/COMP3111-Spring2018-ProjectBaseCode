@@ -2,6 +2,9 @@
 
 This is the modified version README for the dev-roger branch
 
+Members:
+Ruizhao Shao 20255792
+
 Quick reference links:
 
 - [Project Sign Up](https://docs.google.com/spreadsheets/d/1NKxQflvfnRKmjrX8E_HLnRCC6kr4spUST_9fcyZIgFo/edit#gid=0)
